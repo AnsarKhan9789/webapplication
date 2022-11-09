@@ -1,0 +1,238 @@
+@charset "UTF-8";
+
+@charset "UTF-8";
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	list-style: none;
+	text-decoration: none;
+}
+
+h1 {
+	color: white;
+}
+.starting{
+	
+	margin-left: 50px; 
+	margin-top: 30px
+}
+button {
+	background: none;
+	border: 2px solid green;
+	color: white;
+	text-align: center;
+	padding: 10px;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 15px;
+	margin: 4px 2px;
+	cursor: pointer;
+	text-decoration: none;
+}
+
+button:hover {
+	background: green;
+}
+
+input {
+	font-size: 20px;
+	color: white;
+	width: 100%;
+	padding: 10px;
+	display: inline-block;
+	background: none;
+	border:none;
+	outline: none;
+	border-radius: 7px;
+}
+.textboxs{
+	border-bottom:2px solid green;
+	display:inline;
+	
+}
+
+select {
+	width: 100%;
+	padding-top: 10px;
+	color: white;	
+	background: none;
+	border-radius: 10px;
+	outline: none;
+	border:none;
+	cursor: pointer;
+	font-size: 20px;
+}
+
+option {
+	background-color: black;
+	color: white;
+}
+
+
+option:hover {
+	color: white;
+	background-color: green;
+}
+
+label {
+	font-size: 20px;
+	color: white;
+}
+
+
+
+.maincontent {
+	margin-left: 20%;
+	margin-top: 7%;
+}
+
+.tables {
+	border-collapse: collapse;
+	font-size: 18px;
+	margin-top: 20px;
+	background: #212529;
+	empty-cells: hide;
+}
+
+.tables  thead {
+	text-align: left;
+	background-color:  #454d55;
+	font-weight: bold;
+	
+}
+.tables td{
+	color:white;
+	font-size: 18px;
+	height:100%;
+	text-align: center;
+	padding-top:15px;
+	padding-bottom:15px;
+}
+.tables th,td:last-of-type{
+	padding-right:20px;
+	
+}
+.tables th,td:first-of-type{
+	padding-left:20px;
+}
+.tables th,td:nth-child(9){
+	padding-left:20px;
+}
+.tables th  {
+	text-align: center;
+	padding-top:20px;
+	padding-bottom:10px;
+	
+	background: none; 
+	color: #e0cece;
+	font-size: 20px;
+}
+
+.tables input {
+	width: auto;
+	border: none;
+	outline: none;
+	background: none;
+	color: white;
+	font-size: 18px;
+	text-align: center;
+}
+.tables input[type="submit"] {
+	width: 100%;
+	border: none;
+	outline: none;
+	background: none;
+	color: white;
+	font-size: 18px;
+	text-align: center;
+}
+.tables input:hover[type="submit"]  {
+	background-color:green;
+	color:white;
+}
+
+
+.tables tbody tr {
+	border-bottom: 2px solid black;
+}
+
+.tables tbody tr:nth-of-type(even) {
+	background: #454d55;
+	color:white;
+}
+
+.outer {
+	display: flex;
+}
+
+.inner {
+	background-color: rgb(46, 45, 45);
+	width: 100%;
+	height: 100vh;
+}
+
+.inner button {
+	width: 100%;
+	height: 30px;
+	color: white;
+	text-align: left;
+	font-size: 20px;
+	background: none;
+	border: none;
+}
+
+.inner ul li {
+	font-size: 20px;
+	padding: 20px;
+}
+
+
+.inner ul li:hover {
+	background-color: black;
+}
+
+.loginpage {
+	width: 250px;
+	position: absolute;
+	top: 40%;
+	left: 40%;
+}
+
+.loginpage h1 {
+	font-size: 30px;
+	margin-bottom: 20px;
+	color: white;
+}
+
+.loginpage .textbox {
+	margin-bottom: 30px;
+	border-bottom: 2px solid green;
+	overflow: hidden;
+}
+
+.loginpage .textbox input {
+	width: 100%;
+	border: none;
+	outline: none;
+	background: none;
+	color: white;
+	height: 30px;
+	font-size: 20px;
+}
+
+.buttons {
+	background: none;
+	margin-bottom: 10px;
+	width: 100%;
+	border: 1px solid green;
+	color: white;
+	cursor: pointer;
+	font-size: 20px;
+}
+
+.buttons:hover {
+	background: white;
+	color: black;
+}
